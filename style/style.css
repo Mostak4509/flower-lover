@@ -1,0 +1,76 @@
+/* Universal and shared style here */
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* nav related style here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: noto;
+}
+
+.nav-container ul {
+  display: flex;
+  gap: 0 20px;
+  list-style: none;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+}
+
+.h1 {
+  font-family: noto-serif;
+}
+
+/* banner section related style here */
+
+.banner-container {
+  height: 450px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: end;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner-title span {
+  color: #e95a08;
+}
+
+.banner-description {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+/* our plants related style here */
+.our-plants-section {
+  padding: 10px;
+}
+.our-plants {
+  text-align: center;
+}
+.plants-title {
+  font-size: 3rem;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.plants-title span {
+  color: #e95a08;
+}
+.plants-description {
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  /* max-width: 800px; */
+  text-align: center;
+  padding: 0 100px;
+}
