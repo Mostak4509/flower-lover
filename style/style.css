@@ -55,6 +55,13 @@ body {
 /* our plants related style here */
 .our-plants-section {
   padding: 10px;
+  position: relative;
+}
+
+.plants-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px 2px;
 }
 .our-plants {
   text-align: center;
@@ -73,4 +80,31 @@ body {
   /* max-width: 800px; */
   text-align: center;
   padding: 0 100px;
+}
+
+.plants-card {
+  border: 1px solid;
+  width: 270px;
+  height: fit-content;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.plants-card img {
+  width: 268px;
+}
+
+.plants-card h3 {
+  color: #1f1f1f;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.plants-card button {
+  width: 270px;
+  padding: 10px;
+  background-color: #e95a08;
+  color: white;
+  font-size: 1.1rem;
+  border-style: none;
 }
