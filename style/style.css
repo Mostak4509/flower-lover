@@ -13,6 +13,10 @@ body {
   padding: 10px;
 }
 
+.nav-container {
+  display: flex;
+}
+
 .nav-container ul {
   display: flex;
   gap: 0 20px;
@@ -271,32 +275,43 @@ body {
   color: white;
 }
 /* footer section related style here */
+
 .footer-section {
-  margin: 50px 10px;
+  margin: 100px 10px;
+}
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-left {
-  width: 30%;
+.footer-title p {
+  width: 200px;
 }
 
-.footer-middle {
-  display: flex;
+.footer-container ul li {
+  list-style: none;
+}
+.footer-container ul li a {
+  text-decoration: none;
+}
+.footer-icon img {
+  margin: 0 5px;
 }
 
-.footer-list-1 ul li {
-  list-style: none;
-  gap: 30px;
+/* responsive media query here */
+
+.hide {
+  display: none;
 }
-.footer-list-2 ul li {
-  list-style: none;
+
+@media screen and (max-width: 576px) {
+  .footer-container {
+    flex-direction: column;
+  }
 }
-.footer-list-1 ul li a {
-  text-decoration: none;
-  color: #1f1f1f;
-}
-.footer-list-2 ul li a {
-  text-decoration: none;
-  color: #1f1f1f;
+
+@media screen and (max-width: 576px) {
+  .colorful-bunch {
+    flex-direction: column;
+  }
 }
