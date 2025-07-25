@@ -61,7 +61,6 @@ body {
 .plants-card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 40px 2px;
 }
 .our-plants {
   text-align: center;
@@ -107,4 +106,40 @@ body {
   color: white;
   font-size: 1.1rem;
   border-style: none;
+}
+
+/* Flower & plants lover related design here */
+.plants-lover-section {
+  padding: 10px;
+  margin: 100px 0;
+  /* width: 1280px; */
+}
+
+.plants-lover-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  position: relative;
+}
+
+.plants-lover-container h2 {
+  font-size: 3rem;
+}
+.plants-lover-container ul {
+  font-size: 1.5rem;
+  color: #1f1f1f;
+}
+.plants-lover-container ul li {
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.trusted-badge img {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 400px;
+  top: -130px;
 }
